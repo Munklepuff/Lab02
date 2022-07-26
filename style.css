@@ -1,5 +1,31 @@
 * {
-    color: purple;
-    background: orange;
     font-family: 'Edu NSW ACT Foundation', cursive;
 }
+h1 { 
+    color: yellow;
+}
+h2 { 
+    color: pink;
+}
+p {
+     color: blue;
+}
+a {
+    color: red;
+}
+body { 
+    background: purple
+}
+header { 
+    background: green
+}
+nav {
+    background: orangered 
+}
+main {
+    background:lavenderblush
+}
+footer {
+    background: limegreen
+}
+    
