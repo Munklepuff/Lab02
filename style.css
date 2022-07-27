@@ -81,7 +81,7 @@ figure {
     filter: greyscale(80%);
 }
 #custom9 {
-    filter: blur(50px);
+    filter: sepia(200%);
 }
 #custom10 {
     filter: hue-rotate(180deg);
@@ -92,4 +92,30 @@ figure {
 #custom12 {
     filter: sepia(50%);
     saturate:(200%)
+}
+
+header {
+    position: relative;
+    height: 0%;
+}
+h1 {
+    position: absolute;
+    right: 40%;
+    
+}
+
+footer {
+    text-align: center;
+    padding: 10;
+}
+
+figure{
+    position: relative;
+    height: 0%;
+}
+
+figcaption {
+    position: absolute;
+    left: 10%;
+    top: 10%;
 }
