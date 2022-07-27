@@ -51,3 +51,45 @@ img {
     box-shadow: 50px 100px 25px 20px lightcyan;
 
 }
+
+figure {
+    display: inline-block;
+}
+
+#custom1 {
+    filter: blur(5px);
+}
+#custom2 {
+    filter: contrast(400%);
+}
+#custom3 {
+    filter: brightness(20%);
+}
+#custom4 {
+    filter: hue-rotate(50deg);
+}
+#custom5 {
+    filter: invert();
+}
+#custom6 {
+    filter: sepia();
+}
+#custom7 {
+    filter: saturate(300%);
+}
+#custom8 {
+    filter: greyscale(80%);
+}
+#custom9 {
+    filter: blur(50px);
+}
+#custom10 {
+    filter: hue-rotate(180deg);
+}
+#custom11 {
+    filter: brightness(300%);
+}
+#custom12 {
+    filter: sepia(50%);
+    saturate:(200%)
+}
