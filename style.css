@@ -41,7 +41,7 @@ footer {
 .my-class-three{
     font-family: "sans-serif"
 }
-img {
+#image1ID {
     margin: 20px;
     border: 2px solid red;
     border-radius: 1000px;
