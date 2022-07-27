@@ -29,3 +29,22 @@ footer {
     background: limegreen
 }
     
+.my-class-one{
+    color: red;
+}
+
+.my-class-two{
+    font-style: italic;
+}
+
+.my-class-three{
+    font-family: "sans-serif"
+}
+
+img{
+    margin: 20px;
+    border: 2px solid red;
+    width: 1000px;
+    height: 50px;
+
+}
