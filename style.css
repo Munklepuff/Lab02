@@ -44,6 +44,6 @@ footer {
 img{
     margin: 20px;
     border: 2px solid red;
-    object-fit: cover;
-
+    object-fit: cover ;
+    object-position: 80% 80%;
 }
