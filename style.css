@@ -31,6 +31,7 @@ footer {
     
 .my-class-one{
     color: red;
+    text-shadow: 5px 10px darkred;
 }
 
 .my-class-two{
