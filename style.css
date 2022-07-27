@@ -40,10 +40,8 @@ footer {
 .my-class-three{
     font-family: "sans-serif"
 }
-
-img{
+img {
     margin: 20px;
     border: 2px solid red;
-    object-fit: cover ;
-    object-position: 80% 80%;
+    border-radius: 1000px;
 }
