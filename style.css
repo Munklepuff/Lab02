@@ -5,37 +5,38 @@ h1 {
     color: yellow;
 }
 h2 { 
-    color: pink;
+    color: black;
 }
 p {
-     color: blue;
+     color:black;
 }
 a {
     color: red;
 }
 body { 
-    background: purple
+    background: lavenderblush;
 }
 header { 
-    background: green
+    background: pink;
 }
 nav {
-    background: orangered 
+    background: white;
 }
 main {
-    background:lavenderblush
+    background:lavender;
 }
 footer {
-    background: limegreen
+    background: pink;
 }
     
 .my-class-one{
     color: red;
-    text-shadow: 5px 10px darkred;
+    text-shadow: 10px 14px 10px darkred;
 }
 
 .my-class-two{
-    font-style: italic;
+    font-style: bold;
+    color: black;
 }
 
 .my-class-three{
@@ -48,12 +49,15 @@ footer {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    box-shadow: 50px 100px 25px 20px lightcyan;
-
+    box-shadow: 50px 100px 100px 20px lightcoral;
 }
 
 figure {
     display: inline-block;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0em;
+    margin-bottom: 0em;
 }
 
 #custom1 {
@@ -96,17 +100,17 @@ figure {
 
 header {
     position: relative;
-    height: 0%;
+    
 }
 h1 {
     position: absolute;
-    right: 40%;
-    
+   left: 40%;
 }
+
 
 footer {
     text-align: center;
-    padding: 10;
+    padding: 10px;
 }
 
 figure{
@@ -115,7 +119,13 @@ figure{
 }
 
 figcaption {
+    font-style: bolder;
+    font-family: Impact;
     position: absolute;
-    left: 10%;
-    top: 10%;
+    background-color: aquamarine;
+    border-radius: 100px;
+    padding: 7px;
+    left: 35%;
+    top: 80%;
+
 }
