@@ -14,8 +14,13 @@
         thead {
             background-color: #1a4c87;
             color: white;
-            border-bottom: 10px solid #eec217;
+            border-bottom: 10px solid #eec217 ;
         }
+
+        tfoot { 
+            border-top: 10px solid #eec217;  
+        }
+
         /* select subject column,
            <td> which are 4th-to-last-child */
         td:nth-last-child(4) {
@@ -26,29 +31,26 @@
         td:nth-last-child(3) {
             background: #f3f3f3;
         }
-        tr {
-            border-bottom: 1px #dddddd;
-
-        }
-        
+       
         tr:nth-of-type(even) {
             background-color: #f3f3f3;
         }
-    
+
         tr:hover {
             color: blue;
             background: gold;
             cursor: pointer;
         }
 
-        th,td {
-            padding: 5px;
+        th {
+            padding: 10px;
         }
-       
-    
 
+        tr{
+            border-bottom: 1px solid #DDDDDD;   
+        }
 
-
+        
         /* add more styles... */
     </style>
 </head>
@@ -260,9 +262,12 @@
                 <td>INFO424</td>
                 <td>Adaptive Business Intelligence</td>
             </tr>
+            
         </tbody>
+        <tfoot>  
+            <tr>  </tr> 
+        </tfoot>
     </table>
-
 </body>
 
 </html>
